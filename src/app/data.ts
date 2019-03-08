@@ -31,7 +31,7 @@ export const USERS = [
 export const PRODUCTS = [
     {
         id: 1,
-        name: 'Laptop 50',
+        name: 'Instantly Ageless',
         price: 148,
         price_sale: 250,
         stock: 20,
@@ -39,7 +39,7 @@ export const PRODUCTS = [
     },
     {
         id: 2,
-        name: 'Arroz',
+        name: 'Luminesce',
         price: 50,
         price_sale: 250,
         stock: 20,
@@ -47,10 +47,43 @@ export const PRODUCTS = [
     },
     {
         id: 3,
-        name: 'Laptop',
+        name: 'M1ND',
+        price: 180,
+        price_sale: 250,
+        stock: 10,
+        image: 'https://picsum.photos/200/300/?34'
+    },
+    {
+        id: 4,
+        name: 'Naara',
+        price: 180,
+        price_sale: 250,
+        stock: 10,
+        image: 'https://picsum.photos/200/300/?34'
+    },
+    {
+        id: 5,
+        name: 'Reserve',
+        price: 180,
+        price_sale: 250,
+        stock: 10,
+        image: 'https://picsum.photos/200/300/?34'
+    },
+    {
+        id: 6,
+        name: 'VidaCell',
+        price: 180,
+        price_sale: 250,
+        stock: 10,
+        image: 'https://picsum.photos/200/300/?34'
+    },
+    {
+        id: 7,
+        name: 'Zen Bodi',
         price: 180,
         price_sale: 250,
         stock: 10,
         image: 'https://picsum.photos/200/300/?34'
     }
+
 ];

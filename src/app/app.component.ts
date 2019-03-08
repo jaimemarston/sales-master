@@ -16,23 +16,23 @@ export class AppComponent {
             icon: 'home'
         },
         {
-            title: 'List',
+            title: 'Lista de productos',
             url: '/list',
             icon: 'list'
         },
         {
-            title: 'Lista de productos',
+            title: 'Nueva Venta',
             url: '/products',
-            icon: 'list'
-        },
-        {
-            title: 'Producto Stock',
-            url: '/stock-product',
             icon: 'list'
         },
         {
             title: 'Ventas realizadas',
             url: '/sales',
+            icon: 'list'
+        },
+        {
+            title: 'Stock',
+            url: '/stock-product',
             icon: 'list'
         }
     ];
