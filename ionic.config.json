@@ -1,0 +1,8 @@
+{
+  "name": "ionic-jaime",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
