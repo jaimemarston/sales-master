@@ -35,7 +35,7 @@ export const PRODUCTS = [
         price: 148,
         price_sale: 250,
         stock: 20,
-        image: 'https://picsum.photos/200/300/?31'
+        image: 'https://www.marstonsoftware.com/arnold/1.png'
     },
     {
         id: 2,
@@ -43,7 +43,7 @@ export const PRODUCTS = [
         price: 50,
         price_sale: 250,
         stock: 20,
-        image: 'https://picsum.photos/200/300/?35'
+        image: 'https://www.marstonsoftware.com/arnold/2.png'
     },
     {
         id: 3,
@@ -51,7 +51,7 @@ export const PRODUCTS = [
         price: 180,
         price_sale: 250,
         stock: 10,
-        image: 'https://picsum.photos/200/300/?34'
+        image: 'https://www.marstonsoftware.com/arnold/3.png'
     },
     {
         id: 4,
@@ -59,7 +59,7 @@ export const PRODUCTS = [
         price: 180,
         price_sale: 250,
         stock: 10,
-        image: 'https://picsum.photos/200/300/?34'
+        image: 'https://www.marstonsoftware.com/arnold/4.png'
     },
     {
         id: 5,
@@ -67,7 +67,7 @@ export const PRODUCTS = [
         price: 180,
         price_sale: 250,
         stock: 10,
-        image: 'https://picsum.photos/200/300/?34'
+        image: 'https://www.marstonsoftware.com/arnold/5.png'
     },
     {
         id: 6,
@@ -75,7 +75,7 @@ export const PRODUCTS = [
         price: 180,
         price_sale: 250,
         stock: 10,
-        image: 'https://picsum.photos/200/300/?34'
+        image: 'https://www.marstonsoftware.com/arnold/6.png'
     },
     {
         id: 7,
@@ -83,7 +83,7 @@ export const PRODUCTS = [
         price: 180,
         price_sale: 250,
         stock: 10,
-        image: 'https://picsum.photos/200/300/?34'
+        image: 'https://www.marstonsoftware.com/arnold/7.png'
     }
 
 ];

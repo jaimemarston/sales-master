@@ -9,19 +9,34 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
-      {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
-    </ion-item>
-  </ion-list>
-  <!--
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title }}</b>
-    </div>
-  -->
+<ion-content no-padding>
+
+  <!-- Lista de productos -->
+  <ion-card no-margin-bottom>
+      <ion-card-header>
+          <ion-card-subtitle color="primary">Lista de productos</ion-card-subtitle>
+      </ion-card-header>
+
+      <ion-card-content no-padding>
+          <ion-list no-padding>
+              <ion-item *ngFor="let product of products">
+                  <ion-avatar slot="start">
+                      <img [src]="product.image">
+                  </ion-avatar>
+                  <ion-label text-wrap>
+                      <span>{{ product.name }}</span>
+                      <p>S/. {{ product.price }}</p>
+                  </ion-label>
+
+              </ion-item>
+          </ion-list>
+      </ion-card-content>
+  </ion-card>
+  <!-- Lista de productos -->
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+      <ion-fab-button>
+          <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+  </ion-fab>
 </ion-content>
