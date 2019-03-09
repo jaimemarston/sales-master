@@ -4,24 +4,24 @@ import {Router} from '@angular/router';
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+    selector: 'app-home',
+    templateUrl: 'home.page.html',
+    styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
 
-  auth = AuthService.getUserAuthenticated();
-  date = new Date();
+    auth = AuthService.getUserAuthenticated();
+    date = new Date();
 
 
-  constructor(private router: Router) {
-  }
+    constructor(private router: Router) {
+    }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
-  goToProducts(): void {
-      this.router.navigate(['products']);
-  }
+    goToProducts(): void {
+        this.router.navigate(['products']);
+    }
 
 }

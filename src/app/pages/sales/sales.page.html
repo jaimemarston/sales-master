@@ -12,7 +12,7 @@
 <ion-content no-padding>
     <!-- Lista de productos -->
     <ion-list no-padding no-margin no-lines>
-        <ion-item *ngFor="let user of users" no-margin no-lines>
+        <ion-item routerLink="/products" routerDirection="forward" *ngFor="let user of users" no-margin no-lines>
             <ion-avatar slot="start">
                 <img [src]="user.photo">
             </ion-avatar>
