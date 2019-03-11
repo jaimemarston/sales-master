@@ -28,18 +28,17 @@
             <ion-icon slot="start" color="medium" name="book"></ion-icon>
             <ion-label>jeunesseglobal</ion-label>
         </ion-item>
-        <ion-item>
-            <ion-icon slot="start" color="medium" name="build"></ion-icon>
-            <ion-label>Ventas</ion-label>
-        </ion-item>
-        <ion-item>
-            <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+
+        <ion-item (click)="goToStock()">
+            <ion-icon slot="start" color="medium"
+                      name="color-fill"></ion-icon>
             <ion-label>Stock</ion-label>
         </ion-item>
-        <ion-item (click)="goToProducts()">
+        <ion-item (click)="goToList()">
             <ion-icon slot="start" color="medium"
                       name="color-fill"></ion-icon>
             <ion-label>Productos</ion-label>
         </ion-item>
+        
     </ion-list>
 </ion-content>

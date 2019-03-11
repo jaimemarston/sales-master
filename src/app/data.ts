@@ -14,7 +14,7 @@ export const USERS = [
         last_name: 'Ponce Lopez',
         username: 'vanessa',
         password: 'vanessa123',
-        photo: 'https://randomuser.me/api/portraits/med/men/21.jpg',
+        photo: 'https://randomuser.me/api/portraits/med/men/22.jpg',
         phone: '997584522'
     },
     {
@@ -23,7 +23,16 @@ export const USERS = [
         last_name: 'Jaime',
         username: 'jaime',
         password: 'jaime123',
-        photo: 'https://randomuser.me/api/portraits/med/men/21.jpg',
+        photo: 'https://randomuser.me/api/portraits/med/men/23.jpg',
+        phone: '997584522'
+    },
+    {
+        id: 4,
+        first_name: 'Arnold',
+        last_name: 'Trujillo',
+        username: 'arnold',
+        password: 'arnold123',
+        photo: 'https://randomuser.me/api/portraits/med/men/24.jpg',
         phone: '997584522'
     },
 ];

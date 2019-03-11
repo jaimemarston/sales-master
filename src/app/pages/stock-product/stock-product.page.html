@@ -8,7 +8,9 @@
         </ion-title>
     </ion-toolbar>
 </ion-header>
-
+<ion-card-header>
+    <ion-card-subtitle color="primary">Control de Stock</ion-card-subtitle>
+</ion-card-header>
 <ion-content no-padding>
     <!-- Lista de productos -->
     <ion-list no-padding no-margin>
@@ -18,10 +20,10 @@
             </ion-avatar>
             <ion-label text-wrap no-padding no-margin>
                 <ion-list no-padding>
-                    <ion-item>
-                        <ion-label text-wrap style="font-size: 12px">{{ product.name }} </ion-label>
-                        <ion-label style="font-size: 13px">Stock Actual : 100</ion-label>
-                    </ion-item>
+                        <ion-label text-wrap style="font-size: 14px;color: red;">{{ product.name }} </ion-label>
+                        <ion-label style="font-size: 10px">Stock Actual : 100</ion-label>
+                        <ion-label style="font-size: 10px">Venta Total : 100</ion-label>
+                        <ion-label style="font-size: 10px">Importe Total : S/ 1000.00</ion-label>
                 </ion-list>
             </ion-label>
         </ion-item>

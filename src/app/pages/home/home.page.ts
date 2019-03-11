@@ -20,8 +20,18 @@ export class HomePage implements OnInit {
     ngOnInit() {
     }
 
+
+    goToStock(): void {
+        this.router.navigate(['stock-product']);
+    }
+
     goToProducts(): void {
         this.router.navigate(['products']);
     }
+
+    goToList(): void {
+        this.router.navigate(['list']);
+    }
+
 
 }

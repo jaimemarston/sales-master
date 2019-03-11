@@ -21,11 +21,6 @@ export class AppComponent {
             icon: 'list'
         },
         {
-            title: 'Nueva Venta',
-            url: '/products',
-            icon: 'list'
-        },
-        {
             title: 'Ventas realizadas',
             url: '/sales',
             icon: 'list'
