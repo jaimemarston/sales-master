@@ -15,8 +15,11 @@
             <ion-label style="font-size: 12px">
                 <span>Cliente: {{ auth.first_name }}</span>
             </ion-label>
-            <ion-label style="font-size: 12px">
+             <!--<ion-label style="font-size: 12px">
                 <span>{{ date | date }}</span>
+            </ion-label>-->
+            <ion-label style="font-size: 12px">
+                <ion-datetime displayFormat="DD/MM/YYYY" placeholder="fecha"></ion-datetime>
             </ion-label>
         </ion-item>
         <ion-item>
@@ -42,13 +45,14 @@
                         <p>S/. {{ product.price }}</p>
                     </ion-label>
                     <div class="container" slot="end" no-padding no-margin>
-                        <ion-button margin-end="10px" class="round" align="end" size="small">
+                        <ion-button (click)="decrementQty()" margin-end="10px" class="round" align="end" size="small">
                             <ion-icon name="remove"></ion-icon>
                         </ion-button>
                         <ion-label align="end">
-                            <p align="center">{{ product.stock }}</p>
+                         <!--    <p align="center">{{ product.stock }}</p> -->
+                            <p align="center">{{qty}}</p>
                         </ion-label>
-                        <ion-button margin-start="10px" class="round" align="end" size="small">
+                        <ion-button (click)="incrementQty()" margin-start="10px" class="round" align="end" size="small">
                             <ion-icon name="add"></ion-icon>
                         </ion-button>
                     </div>
